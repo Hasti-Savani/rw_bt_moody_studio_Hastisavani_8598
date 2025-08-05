@@ -13,6 +13,22 @@ main {
     max-width: 43%;
 }
 
+.color {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
 .h1 {
     color: #A86A3D;
     font-size: 50px;
@@ -22,18 +38,16 @@ main {
     margin: 100px 0px;
 }
 
-.p-text {
-    height: 600px;
-    width: 100%;
-    background-image: url(../asset/images/image-4.png);
-    /* backdrop-filter: brightness(0.8); */
+.mt-10 {
+    margin-top: 100px;
 }
 
-.p-text2 {
-    height: 550px;
-    width: 100%;
-    background-image: url(../asset/images/image-11.png);
-    /* backdrop-filter: brightness(0.8); */
+.px-7 {
+    padding: 0px 70px;
+}
+
+.p-text {
+    background-color: #e7e6e4;
 }
 
 .sub-offer {
@@ -65,20 +79,4 @@ main {
         font-size: 12px;
     }
 
-}
-
-.fs{
-   font-size: 12px;
-}
-
-.f{
-    font-size: 16px;
-}
-
-.mt{
-    margin-top: 100px;
-}
-
-.fs-6{
-    font-size: 500x;
 }
